@@ -20,6 +20,7 @@ def main():
         print("- Remove a car? enter 4")
         print("- Print the car list? enter 5")
         print("- Save the data to a file? enter 6")
+        print("- Exit? enter 0")
 
         choice = input("> ").strip()
 
@@ -35,6 +36,8 @@ def main():
             print_car_list(cars)
         elif choice == "6":
             save_data(DATA_FILE, cars)
+        elif choice == "0":
+            break
         else:
             print("Invalid selection. Please try again.")
 
