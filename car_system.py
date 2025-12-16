@@ -123,7 +123,7 @@ def edit_car_menu(cars):
             new_make = input(f"Make:").strip()
             new_body = input(f"Body:").strip()
             new_year = input(f"Year:").strip()
-            new_value = input(f"Value:").strip()
+            new_value = input(f"Value").strip()
 
             try:
                 if new_name:
