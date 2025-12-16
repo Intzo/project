@@ -162,7 +162,5 @@ def print_car_list(cars):
     if not cars:
         print("\nNo cars in inventory yet.")
         return
-    
-    print("\nId\tName\tMake\tBody\tYear\tValue")
     for car in sorted(cars, key=lambda c: c.car_id):
         print(car)
