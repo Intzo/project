@@ -1,0 +1,2 @@
+1,Kia rondo 2024,Kia,SUV,2024,10000.0
+2,Honda civic 2010,Honda,Sedan,2010,7000.0
