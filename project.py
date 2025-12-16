@@ -40,10 +40,6 @@ def main():
             break
         else:
             print("Invalid selection. Please try again.")
-
-        cont = input("\nContinue (y/yes) or exit (n/no)? ").strip().lower()
-        if cont in ("n", "no"):
-            break
-
+            
 if __name__ == "__main__":
     main()
