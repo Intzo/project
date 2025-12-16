@@ -119,11 +119,11 @@ def edit_car_menu(cars):
             print("Car not found")
         else:
             print("Enter new values (leave blank to keep current):")
-            new_name = input(f"Name [{car.name}]: ").strip()
-            new_make = input(f"Make [{car.make}]: ").strip()
-            new_body = input(f"Body [{car.body}]: ").strip()
-            new_year = input(f"Year [{car.year}]: ").strip()
-            new_value = input(f"Value [{car.value:.2f}]: ").strip()
+            new_name = input(f"Name").strip()
+            new_make = input(f"Make").strip()
+            new_body = input(f"Body").strip()
+            new_year = input(f"Year").strip()
+            new_value = input(f"Value").strip()
 
             try:
                 if new_name:
