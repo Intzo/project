@@ -64,12 +64,12 @@ def save_data(filename, cars):
 def add_car_menu(cars):
     while True:
         print("\nEnter the car information.")
-        car_id = input("Id: ").strip()
-        name = input("Name (e.g. 'Honda Civic 2024'): ").strip()
-        make = input("Make (manufacturer): ").strip()
-        body = input("Body (SUV, Sedan, etc.): ").strip()
-        year = input("Year: ").strip()
-        value = input("Value (price): ").strip()
+        car_id = input("Id:").strip()
+        name = input("Name:").strip()
+        make = input("Make:").strip()
+        body = input("Body:").strip()
+        year = input("Year:").strip()
+        value = input("Value:").strip()
 
         if find_car_by_id(cars, car_id):
             print("Incorrect Id. Id already exists in the system.")
