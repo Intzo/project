@@ -1,0 +1,191 @@
+Test file
+
+#first run
+
+Welcome to the Car Inventory system
+
+What would you like to do today?
+- Add a car? enter 1
+- Search for car? enter 2
+- Edit car info? enter 3
+- Remove a car? enter 4
+- Print the car list? enter 5
+- Save the data to a file? enter 6
+- Exit? enter 0
+> 1
+
+Enter the car information.
+Id:1
+Name:Kia rondo 2024
+Make:Kia
+Body:SUV
+Year:2024
+Value:10000
+Car added to the inventory:
+1       Kia rondo 2024  Kia     SUV     2024    10000.00
+Do you want to add more cars? y(yes)/n(no) y
+
+Enter the car information.
+Id:1
+Name:Honda civic 2010
+Make:Honda
+Body:Sedan
+Year:2010
+Value:7000
+Incorrect Id. Id already exists in the system.
+Do you want to add more cars? y(yes)/n(no) y
+
+Enter the car information.
+Id:2
+Name:Honda civic 2010
+Make:Honda
+Body:Sedan
+Year:2010
+Value:7000
+Car added to the inventory:
+2       Honda civic 2010        Honda   Sedan   2010    7000.00
+Do you want to add more cars? y(yes)/n(no) y
+
+Enter the car information.
+Id:3
+Name:Honda civic 2010
+Make:Honda
+Body:Sedan
+Year:2010
+Value:7000
+The car already exists in the inventory. No action is required.
+Do you want to add more cars? y(yes)/n(no) y
+
+Enter the car information.
+Id:3
+Name:BMW x1
+Make:BMW
+Body:Sedan
+Year:2010
+Value:20000
+Car added to the inventory:
+3       BMW x1  BMW     Sedan   2010    20000.00
+Do you want to add more cars? y(yes)/n(no) n
+
+What would you like to do today?
+- Add a car? enter 1
+- Search for car? enter 2
+- Edit car info? enter 3
+- Remove a car? enter 4
+- Print the car list? enter 5
+- Save the data to a file? enter 6
+- Exit? enter 0
+> 2
+
+To search using the Id enter 1. To search using the Name enter 2. Enter -1 to return.
+> 1
+Please Enter the id: 1
+Car found: 1    Kia rondo 2024  Kia     SUV     2024    10000.00
+
+To search using the Id enter 1. To search using the Name enter 2. Enter -1 to return.
+> 2
+Please Enter the car name: Honda civic 2010
+Car found: 2    Honda civic 2010        Honda   Sedan   2010    7000.00
+
+To search using the Id enter 1. To search using the Name enter 2. Enter -1 to return.
+> 2
+Please Enter the car name: byd
+Car not found
+
+To search using the Id enter 1. To search using the Name enter 2. Enter -1 to return.
+> -1
+
+What would you like to do today?
+- Add a car? enter 1
+- Search for car? enter 2
+- Edit car info? enter 3
+- Remove a car? enter 4
+- Print the car list? enter 5
+- Save the data to a file? enter 6
+- Exit? enter 0
+> 3
+
+Enter the id (-1 to return): 3
+Enter new values (leave blank to keep current):
+Name:BMW x2
+Make:BMW
+Body:Sedan
+Year:2020
+Value:30000
+Car's new info is:
+3       BMW x2  BMW     Sedan   2020    30000.00
+
+Enter the id (-1 to return): -1
+
+What would you like to do today?
+- Add a car? enter 1
+- Search for car? enter 2
+- Edit car info? enter 3
+- Remove a car? enter 4
+- Print the car list? enter 5
+- Save the data to a file? enter 6
+- Exit? enter 0
+> 4
+
+Enter id: 3
+Car removed
+Remove more cars? y/n n
+
+What would you like to do today?
+- Add a car? enter 1
+- Search for car? enter 2
+- Edit car info? enter 3
+- Remove a car? enter 4
+- Print the car list? enter 5
+- Save the data to a file? enter 6
+- Exit? enter 0
+> 5
+1       Kia rondo 2024  Kia     SUV     2024    10000.00
+2       Honda civic 2010        Honda   Sedan   2010    7000.00
+
+What would you like to do today?
+- Add a car? enter 1
+- Search for car? enter 2
+- Edit car info? enter 3
+- Remove a car? enter 4
+- Print the car list? enter 5
+- Save the data to a file? enter 6
+- Exit? enter 0
+> 6
+Data saved to local file successfully!
+
+What would you like to do today?
+- Add a car? enter 1
+- Search for car? enter 2
+- Edit car info? enter 3
+- Remove a car? enter 4
+- Print the car list? enter 5
+- Save the data to a file? enter 6
+- Exit? enter 0
+> 0
+
+#second run
+
+Welcome to the Car Inventory system
+
+What would you like to do today?
+- Add a car? enter 1
+- Search for car? enter 2
+- Edit car info? enter 3
+- Remove a car? enter 4
+- Print the car list? enter 5
+- Save the data to a file? enter 6
+- Exit? enter 0
+> 5
+1       Kia rondo 2024  Kia     SUV     2024    10000.00
+2       Honda civic 2010        Honda   Sedan   2010    7000.00
+
+What would you like to do today?
+- Add a car? enter 1
+- Search for car? enter 2
+- Edit car info? enter 3
+- Remove a car? enter 4
+- Print the car list? enter 5
+- Save the data to a file? enter 6
+- Exit? enter 0
+> 0
